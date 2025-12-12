@@ -28,13 +28,13 @@ Este projeto realiza a extração estruturada dos filmes presentes na lista *IMD
 
 ## Estrutura do projeto
 top250_imdb/
-│
-├─ main.py # arquivo principal que executa o scraper
-├─ scraper.py # funções de requisição e extração do IMDb
-├─ utils.py # funções auxiliares, como salvar CSV
-├─ data/ # pasta onde o CSV será salvo automaticamente
-│ └─ top250.csv
-└─ README.md # documentação do projeto
+├─ src/
+│  ├─ main.py
+│  ├─ scraper.py
+│  └─ utils.py
+├─ data/
+│  └─ .gitkeep
+└─ README.md
 
 ---
 
