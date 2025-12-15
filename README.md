@@ -27,15 +27,16 @@ Este projeto realiza a extração estruturada dos filmes presentes na lista *IMD
 ---
 
 ## Estrutura do projeto
+```text
 top250_imdb/
-├─ src/
-│  ├─ main.py
-│  ├─ scraper.py
-│  └─ utils.py
-├─ data/
-│  └─ .gitkeep
-└─ README.md
-
+├── src/
+│   ├── main.py
+│   ├── scraper.py
+│   └── utils.py
+├── data/
+│   └── .gitkeep
+└── README.md
+```
 ---
 
 ## Stack utilizada
